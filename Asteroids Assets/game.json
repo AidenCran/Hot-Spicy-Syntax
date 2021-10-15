@@ -42,6 +42,7 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
+    "authorIds": [],
     "extensionProperties": [],
     "platforms": [
       {
@@ -365,7 +366,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35999999999999954,
+        "zoomFactor": 0.7999999999999999,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3451,6 +3452,26 @@
             "includeConfig": 0
           },
           "target": "NewExternalEvents"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "EnemyBullet",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
