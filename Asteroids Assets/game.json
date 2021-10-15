@@ -14,7 +14,7 @@
     "pixelsRounding": false,
     "projectUuid": "3cf2afce-5643-4a6d-96b7-5d7816b63a6d",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Project",
@@ -365,7 +365,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5999999999999996,
+        "zoomFactor": 0.35999999999999954,
         "windowMask": false
       },
       "objectsGroups": [],
