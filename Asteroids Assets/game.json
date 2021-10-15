@@ -552,6 +552,24 @@
           "effects": [],
           "behaviors": [
             {
+              "acceleration": 0,
+              "canGrabPlatforms": false,
+              "deceleration": 0,
+              "gravity": 0,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 0,
+              "jumpSustainTime": 0,
+              "ladderClimbingSpeed": 0,
+              "maxFallingSpeed": 0,
+              "maxSpeed": 0,
+              "name": "PlatformerObject",
+              "roundCoordinates": false,
+              "slopeMaxAngle": 0,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 0,
+              "yGrabOffset": 0
+            },
+            {
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 100000,
@@ -1508,7 +1526,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "NewObject",
@@ -1588,7 +1614,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "NewObject",
@@ -1862,13 +1896,33 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MouseButtonPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 },
                 {
                   "type": {
@@ -3213,7 +3267,7 @@
               },
               "parameters": [
                 "Ship",
-                "EnemyBullet",
+                "AsteroidSmall",
                 "",
                 "",
                 ""
@@ -3238,7 +3292,7 @@
               "parameters": [
                 "Lives",
                 "-",
-                "3"
+                "1\n"
               ],
               "subInstructions": []
             },
@@ -3269,7 +3323,7 @@
               },
               "parameters": [
                 "Ship",
-                "AsteroidSmall",
+                "EnemyBullet",
                 "",
                 "",
                 ""
@@ -3294,7 +3348,7 @@
               "parameters": [
                 "Lives",
                 "-",
-                "1\n"
+                "3"
               ],
               "subInstructions": []
             },
@@ -3706,6 +3760,48 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "EnemyBullet",
+                    "Ship",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "AsteroidLarge",
+                    "Ship",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "AsteroidSmall",
+                    "Ship",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ]
             }
@@ -3772,6 +3868,14 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
@@ -3812,6 +3916,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
