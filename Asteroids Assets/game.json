@@ -344,6 +344,24 @@
         "name": "NewObject-1-0.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ships/ship_sidesCgreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ships\\ship_sidesCgreen.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ships/ship_sidesCgreendamage.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ships\\ship_sidesCgreendamage.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -375,7 +393,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5999999999999998,
+        "zoomFactor": 0.5399999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -587,7 +605,7 @@
           ],
           "animations": [
             {
-              "name": "ship_sidesC",
+              "name": "NormalShip",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -596,7 +614,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "ships\\ship_sidesC.png",
+                      "image": "ships\\ship_sidesCgreen.png",
                       "points": [
                         {
                           "name": "Canon",
@@ -619,6 +637,35 @@
                           "y": 55.95920181274414
                         }
                       ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Damage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ships\\ship_sidesCgreendamage.png",
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -3149,7 +3196,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "GameRules",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3250,6 +3297,28 @@
                     "\"Lives: \" + ToString(GlobalVariable(Lives))"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"DamageTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"Damage\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -3306,6 +3375,28 @@
                     "\"Lives: \" + ToString(GlobalVariable(Lives))"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"DamageTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"Damage\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -3360,6 +3451,72 @@
                     "NewObject2",
                     "=",
                     "\"Lives: \" + ToString(GlobalVariable(Lives))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"DamageTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"Damage\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"DamageTimer\"",
+                    "0.3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"NormalShip\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"DamageTimer\""
                   ],
                   "subInstructions": []
                 }
