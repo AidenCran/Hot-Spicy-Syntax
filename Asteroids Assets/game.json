@@ -365,7 +365,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35999999999999954,
+        "zoomFactor": 0.3999999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -463,6 +463,70 @@
           "x": 5,
           "y": 4,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Heal",
+          "persistentUuid": "abdb74d8-b72a-4081-b016-670352ab5368",
+          "width": 0,
+          "x": 61,
+          "y": 580,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Heal",
+          "persistentUuid": "46d530b3-bec3-4c54-86bc-e567461135b4",
+          "width": 0,
+          "x": 51,
+          "y": 475,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Heal",
+          "persistentUuid": "50212974-3652-4069-b212-86d05494fc92",
+          "width": 0,
+          "x": 51,
+          "y": 682,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Upgrade",
+          "persistentUuid": "58697434-d7b5-4f5c-a2f9-e29709a134f1",
+          "width": 0,
+          "x": 29,
+          "y": 635,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3451,6 +3515,37 @@
             "includeConfig": 0
           },
           "target": "NewExternalEvents"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "test event",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
