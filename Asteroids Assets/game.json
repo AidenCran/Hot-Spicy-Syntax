@@ -6335,7 +6335,7 @@
           "name": "Start",
           "persistentUuid": "653a87e5-fdc8-4ef8-8db5-ed557c442768",
           "width": 0,
-          "x": 120,
+          "x": 135,
           "y": 745,
           "zOrder": 2,
           "numberProperties": [],
@@ -6414,7 +6414,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Press Any Space to Start!",
+          "string": "Press Space to Start!",
           "font": "",
           "characterSize": 30,
           "color": {
