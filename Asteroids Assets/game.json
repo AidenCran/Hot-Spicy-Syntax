@@ -3280,7 +3280,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemy Health (Normal)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3530,7 +3530,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemy Movement (Normal)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3783,7 +3783,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemy Health (Speedy)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3946,7 +3946,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemy Shoot (Speedy)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4033,7 +4033,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemy Movement (Speedy)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4899,6 +4899,20 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
+                        "Heal",
+                        "TopBottomObjectDelete",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
                         "AsteroidLarge",
                         "TopBottomObjectDelete",
                         "",
@@ -5057,6 +5071,17 @@
                   },
                   "parameters": [
                     "AsteroidSmall",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Heal",
                     ""
                   ],
                   "subInstructions": []
