@@ -595,6 +595,50 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green blank button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green blank button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/White/Green blank button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green blank button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Green blank button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red blank button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red blank button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/White/Red blank button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red blank button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red blank button.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -609,6 +653,498 @@
     }
   ],
   "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "HomeScreen",
+      "name": "HomeScreen",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5999999999999996,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1200,
+          "layer": "",
+          "locked": false,
+          "name": "BlackSpace",
+          "persistentUuid": "cd282c80-0d28-4848-9553-3269b19aa474",
+          "width": 900,
+          "x": -150,
+          "y": -55,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "button1",
+          "persistentUuid": "587c100c-c128-449d-b940-c89c5aebf492",
+          "width": 0,
+          "x": 224.8125,
+          "y": 417,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "button1",
+          "persistentUuid": "998c3cd5-8972-4744-9ff0-3607fc6470b2",
+          "width": 0,
+          "x": 276.8125,
+          "y": 457,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 123.99193572998047,
+          "layer": "",
+          "locked": false,
+          "name": "GameTitle",
+          "persistentUuid": "58fc9895-7032-4b4d-b62d-a2a40a1f7661",
+          "width": 615,
+          "x": -5,
+          "y": 200,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ScoreText",
+          "persistentUuid": "3c108737-3560-4683-b5fd-ad224862fdfe",
+          "width": 0,
+          "x": 215,
+          "y": 425,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HScore",
+          "persistentUuid": "21f14d4b-5116-49df-9731-00934a8b7502",
+          "width": 0,
+          "x": 275,
+          "y": 485,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "",
+          "locked": false,
+          "name": "GreenBlankButton",
+          "persistentUuid": "bbd27270-c830-42ed-8e8d-8de64032dd94",
+          "width": 329,
+          "x": 126,
+          "y": 703,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StartText",
+          "persistentUuid": "b224da9b-fb59-4dff-af0c-b1a3dd07ddf5",
+          "width": 0,
+          "x": 163,
+          "y": 721,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 128,
+          "name": "BlackSpace",
+          "tags": "",
+          "texture": "tiled_black space.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "name": "GameTitle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "GameTitle4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ScoreText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "High Score:",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "HScore",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "name": "GreenBlankButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Greenblankbutton",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Green blank button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "StartText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press to Start!",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "GreenBlankButton",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "StartText",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameScreen\"",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio\\Universe Sounds Free Pack\\Music\\Universe Music.wav",
+                "yes",
+                "3",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "HighScore",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597066561,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
@@ -3536,7 +4072,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Asteroids Spawn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3554,7 +4090,7 @@
                   "parameters": [
                     "Score",
                     "<",
-                    "30"
+                    "50\n"
                   ],
                   "subInstructions": []
                 },
@@ -3645,8 +4181,8 @@
                   },
                   "parameters": [
                     "Score",
-                    ">=",
-                    "30"
+                    ">",
+                    "100\n"
                   ],
                   "subInstructions": []
                 },
@@ -3738,7 +4274,7 @@
                   "parameters": [
                     "Score",
                     ">",
-                    "80"
+                    "150"
                   ],
                   "subInstructions": []
                 },
@@ -3826,7 +4362,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Enemy Group (Normal)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7057,7 +7593,7 @@
                   "parameters": [
                     "DifficultyValue",
                     "+",
-                    "0.25"
+                    "0.05"
                   ],
                   "subInstructions": []
                 },
@@ -7081,7 +7617,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "name": "Set Difficulty (Normal)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -7156,7 +7692,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "name": "Set Difficulty (Speedy)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -7363,16 +7899,32 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 43,
           "layer": "",
           "locked": false,
           "name": "AgainText",
           "persistentUuid": "6d212693-91bf-4f5f-8405-aa4075b0ff52",
-          "width": 0,
-          "x": 112,
-          "y": 603,
+          "width": 387,
+          "x": 98,
+          "y": 600,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 59,
+          "layer": "",
+          "locked": false,
+          "name": "HomeButton",
+          "persistentUuid": "d6926f54-db64-42ec-a218-49d55ded1416",
+          "width": 261,
+          "x": 167,
+          "y": 869,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7383,12 +7935,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "ReturnText",
-          "persistentUuid": "2f127ef0-b391-43ab-9003-b5026c2483dd",
+          "name": "HomeText",
+          "persistentUuid": "f4a75649-0b07-4a09-8824-2d5f7a122df3",
           "width": 0,
-          "x": 123,
-          "y": 672,
-          "zOrder": 4,
+          "x": 204,
+          "y": 880,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7486,7 +8038,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Press Space to Play Again",
+          "string": "Press 'Space' to Play Again!",
           "font": "",
           "characterSize": 30,
           "color": {
@@ -7496,9 +8048,49 @@
           }
         },
         {
+          "name": "HomeButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "HomeButton",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Red blank button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "bold": false,
           "italic": false,
-          "name": "ReturnText",
+          "name": "HomeText",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -7506,13 +8098,13 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Press 'H' to Return Home",
+          "string": "Return Home",
           "font": "",
           "characterSize": 30,
           "color": {
-            "b": 48,
-            "g": 24,
-            "r": 226
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         }
       ],
@@ -7603,11 +8195,46 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "HomeButton",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "HomeText",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
               },
               "parameters": [
                 "",
-                "h"
+                "Left"
               ],
               "subInstructions": []
             }
@@ -7626,6 +8253,14 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         },
         {
@@ -7667,383 +8302,6 @@
           "ambientLightColorB": 2,
           "ambientLightColorG": 134217728,
           "ambientLightColorR": 1597132097,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "HomeScreen",
-      "name": "HomeScreen",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.5999999999999996,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1200,
-          "layer": "",
-          "locked": false,
-          "name": "BlackSpace",
-          "persistentUuid": "cd282c80-0d28-4848-9553-3269b19aa474",
-          "width": 900,
-          "x": -150,
-          "y": -55,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "button1",
-          "persistentUuid": "587c100c-c128-449d-b940-c89c5aebf492",
-          "width": 0,
-          "x": 224.8125,
-          "y": 417,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "button1",
-          "persistentUuid": "998c3cd5-8972-4744-9ff0-3607fc6470b2",
-          "width": 0,
-          "x": 276.8125,
-          "y": 457,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Start",
-          "persistentUuid": "653a87e5-fdc8-4ef8-8db5-ed557c442768",
-          "width": 0,
-          "x": 135,
-          "y": 745,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 123.99193572998047,
-          "layer": "",
-          "locked": false,
-          "name": "GameTitle",
-          "persistentUuid": "58fc9895-7032-4b4d-b62d-a2a40a1f7661",
-          "width": 615,
-          "x": -5,
-          "y": 200,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "ScoreText",
-          "persistentUuid": "3c108737-3560-4683-b5fd-ad224862fdfe",
-          "width": 0,
-          "x": 215,
-          "y": 425,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "HScore",
-          "persistentUuid": "21f14d4b-5116-49df-9731-00934a8b7502",
-          "width": 0,
-          "x": 275,
-          "y": 485,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "height": 128,
-          "name": "BlackSpace",
-          "tags": "",
-          "texture": "tiled_black space.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "Start",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Press Space to Start!",
-          "font": "",
-          "characterSize": 30,
-          "color": {
-            "b": 29,
-            "g": 219,
-            "r": 128
-          }
-        },
-        {
-          "name": "GameTitle",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "GameTitle4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "ScoreText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "High Score:",
-          "font": "",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "HScore",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "0",
-          "font": "",
-          "characterSize": 40,
-          "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
-          }
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"GameScreen\"",
-                "no"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "audio\\Universe Sounds Free Pack\\Music\\Universe Music.wav",
-                "yes",
-                "3",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 134217728,
-          "ambientLightColorR": 1597066561,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
