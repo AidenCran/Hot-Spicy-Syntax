@@ -374,15 +374,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "gui/healthbar10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gui\\healthbar10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "gui/healthbar9.png",
         "kind": "image",
         "metadata": "",
@@ -637,6 +628,141 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Red blank button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/healthbar10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\healthbar10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ships/shield_ship_sidesCgreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ships\\shield_ship_sidesCgreen.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui/shieldbar10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui\\shieldbar10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spritesheetsandassets/PNG/Default/Damage_ship_sidesA.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spritesheetsandassets\\PNG\\Default\\Damage_ship_sidesA.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ships/Damage_enemy_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ships\\Damage_enemy_B.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -989,6 +1115,39 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetWindowSize"
+              },
+              "parameters": [
+                "",
+                "600",
+                "1080",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
@@ -1169,29 +1328,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Adding so I can push again - delete when you see this",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -1243,7 +1379,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5199999999999997,
+        "zoomFactor": 0.7599999999999999,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1274,14 +1410,14 @@
         {
           "angle": 0,
           "customSize": false,
-          "height": 0,
+          "height": 22,
           "layer": "",
           "locked": false,
           "name": "Score",
           "persistentUuid": "ddae59ae-14c8-4764-beed-b245d12046fb",
-          "width": 0,
-          "x": 242,
-          "y": 21,
+          "width": 54,
+          "x": 227,
+          "y": 40,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1424,8 +1560,8 @@
           "name": "DifficultyScaleText",
           "persistentUuid": "2009eca4-bdef-4976-8aba-054401ca6c8f",
           "width": 0,
-          "x": 220,
-          "y": 53,
+          "x": 218,
+          "y": 79,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1434,47 +1570,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 446,
+          "height": 375.7499694824219,
           "layer": "",
           "locked": false,
           "name": "ShieldBar",
-          "persistentUuid": "3ed16ca0-e44e-479e-ac8f-b3406252602f",
-          "width": 84.95237731933594,
-          "x": 44.04762268066406,
-          "y": 658,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject2",
-          "persistentUuid": "748250df-2eb3-4c0e-bce9-bac74f8b9c70",
-          "width": 0,
-          "x": 81,
-          "y": 133,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject22",
-          "persistentUuid": "4b1600e2-13b4-42cb-a2dc-cb431dc4addc",
-          "width": 0,
-          "x": 112,
-          "y": 229,
-          "zOrder": 17,
+          "persistentUuid": "3966aa5f-abc8-44f2-8fa0-d91e5f18b974",
+          "width": 74,
+          "x": 33,
+          "y": 726,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1539,28 +1643,23 @@
                   "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ships\\ship_sidesCgreen.png",
                       "points": [
                         {
-                          "name": "Canon",
-                          "x": 32.13975524902344,
-                          "y": 17.0703125
-                        },
-                        {
                           "name": "Canon2",
-                          "x": 16.02864646911621,
-                          "y": 6.37586784362793
+                          "x": 48,
+                          "y": 6
                         },
                         {
                           "name": "Canon3",
-                          "x": 48.11198043823242,
-                          "y": 6.37586784362793
+                          "x": 16,
+                          "y": 6
                         },
                         {
-                          "name": "Boost",
-                          "x": 31.86197853088379,
-                          "y": 55.95920181274414
+                          "name": "Canon",
+                          "x": 32,
+                          "y": 16
                         }
                       ],
                       "originPoint": {
@@ -1574,7 +1673,34 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13.166666984558105,
+                            "y": 5.583333492279053
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 5.416666507720947
+                          },
+                          {
+                            "x": 58.83333206176758,
+                            "y": 41.08333206176758
+                          },
+                          {
+                            "x": 49,
+                            "y": 58.91666793823242
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 58.58333206176758
+                          },
+                          {
+                            "x": 5,
+                            "y": 40.58333206176758
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1589,9 +1715,25 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ships\\ship_sidesCgreendamage.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Canon2",
+                          "x": 48,
+                          "y": 6
+                        },
+                        {
+                          "name": "Canon3",
+                          "x": 16,
+                          "y": 6
+                        },
+                        {
+                          "name": "Canon",
+                          "x": 32,
+                          "y": 16
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1603,7 +1745,106 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13.166666984558105,
+                            "y": 5.583333492279053
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 5.416666507720947
+                          },
+                          {
+                            "x": 58.83333206176758,
+                            "y": 41.08333206176758
+                          },
+                          {
+                            "x": 49,
+                            "y": 58.91666793823242
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 58.58333206176758
+                          },
+                          {
+                            "x": 5,
+                            "y": 40.58333206176758
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ShieldDamage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ships\\shield_ship_sidesCgreen.png",
+                      "points": [
+                        {
+                          "name": "Canon2",
+                          "x": 48,
+                          "y": 6
+                        },
+                        {
+                          "name": "Canon3",
+                          "x": 16,
+                          "y": 6
+                        },
+                        {
+                          "name": "Canon",
+                          "x": 32,
+                          "y": 16
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13.166666984558105,
+                            "y": 5.583333492279053
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 5.416666507720947
+                          },
+                          {
+                            "x": 58.83333206176758,
+                            "y": 41.08333206176758
+                          },
+                          {
+                            "x": 49,
+                            "y": 58.91666793823242
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 58.58333206176758
+                          },
+                          {
+                            "x": 5,
+                            "y": 40.58333206176758
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1929,6 +2170,26 @@
         {
           "bold": false,
           "italic": false,
+          "name": "NewObject222",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "enemy1firerate:",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
           "name": "NewObject22",
           "smoothed": true,
           "tags": "",
@@ -1976,7 +2237,12 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "string": "Score",
           "font": "",
           "characterSize": 20,
@@ -2328,7 +2594,7 @@
           ],
           "animations": [
             {
-              "name": "enemy_B",
+              "name": "Enemy2",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2338,6 +2604,76 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "spritesheetsandassets\\PNG\\Default\\ship_sidesA.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 32.00284194946289,
+                          "y": 52
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31.714284896850586,
+                            "y": 2.357142925262451
+                          },
+                          {
+                            "x": 41.28571319580078,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 55.71428680419922,
+                            "y": 10.928571701049805
+                          },
+                          {
+                            "x": 58.28571319580078,
+                            "y": 22.214284896850586
+                          },
+                          {
+                            "x": 32.1484375,
+                            "y": 54.42784881591797
+                          },
+                          {
+                            "x": 7.714285850524902,
+                            "y": 25.64285659790039
+                          },
+                          {
+                            "x": 8.857142448425293,
+                            "y": 12.071428298950195
+                          },
+                          {
+                            "x": 22.428571701049805,
+                            "y": 2.7857143878936768
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Enemy2Damage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "spritesheetsandassets\\PNG\\Default\\Damage_ship_sidesA.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2458,7 +2794,7 @@
           ],
           "animations": [
             {
-              "name": "enemy_B",
+              "name": "enemy1",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2468,6 +2804,76 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "ships\\enemy_B.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 32.00284194946289,
+                          "y": 52
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32.00137710571289,
+                            "y": 7.369025707244873
+                          },
+                          {
+                            "x": 46.11902618408203,
+                            "y": 19.133731842041016
+                          },
+                          {
+                            "x": 60.67784881591797,
+                            "y": 32.07490921020508
+                          },
+                          {
+                            "x": 45.236671447753906,
+                            "y": 44.57490921020508
+                          },
+                          {
+                            "x": 32.1484375,
+                            "y": 54.42784881591797
+                          },
+                          {
+                            "x": 18.030790328979492,
+                            "y": 44.42784881591797
+                          },
+                          {
+                            "x": 3.766084671020508,
+                            "y": 32.663143157958984
+                          },
+                          {
+                            "x": 18.913143157958984,
+                            "y": 18.692554473876953
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "enemy1damage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ships\\Damage_enemy_B.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2784,336 +3190,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "NewObject-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "ShieldBar",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "healthbar10",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar9",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar8",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar7",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar6",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar5",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar4",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "healthbar0",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gui\\healthbar0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3481,6 +3557,336 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "name": "ShieldBar",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "shieldbar10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar9",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar8",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shieldbar0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gui\\shieldbar0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4147,7 +4553,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Asteroids Spawn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4437,7 +4843,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Enemy Group (Normal)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4659,6 +5065,72 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "\"EnemyNormalDamageTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "\"enemy1damage\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "\"EnemyNormalDamageTimer\"",
+                        "0.1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "\"enemy1\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "\"EnemyNormalDamageTimer\""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -4690,7 +5162,7 @@
                       "parameters": [
                         "Enemy1",
                         "\"Enemy1FireRate\"",
-                        "Enemy1.Variable(FireRate)"
+                        "Enemy1.Variable(FireRate)*2\n"
                       ],
                       "subInstructions": []
                     },
@@ -4940,7 +5412,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Enemy Group (Speedy)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5102,6 +5574,72 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "\"EnemySpeedyDamageTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "\"Enemy2Damage\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "\"EnemySpeedyDamageTimer\"",
+                        "0.1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "\"Enemy2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "\"EnemySpeedyDamageTimer\""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -5193,7 +5731,7 @@
                       "parameters": [
                         "Enemy2",
                         "\"Enemy2FireRate\"",
-                        "Enemy2.Variable(FireRate)"
+                        "Enemy2.Variable(FireRate)*2"
                       ],
                       "subInstructions": []
                     },
@@ -5471,7 +6009,7 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Lives",
+                    "Shields",
                     "=",
                     "100"
                   ],
@@ -5483,7 +6021,7 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Shields",
+                    "Lives",
                     "=",
                     "100"
                   ],
@@ -5519,6 +6057,74 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Shields",
+                    "<",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Shields",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Shields",
+                    ">",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Shields",
+                    "=",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -5535,7 +6141,20 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Shields",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -5565,57 +6184,15 @@
               "events": []
             },
             {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Ship",
-                    "AsteroidLarge",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Ship",
-                    "\"DamageTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Ship",
-                    "\"Damage\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "name": "DamageRules",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "disabled": false,
@@ -5625,7 +6202,21 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarScene"
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "AsteroidLarge",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
                       },
                       "parameters": [
                         "Shields",
@@ -5633,35 +6224,75 @@
                         "0"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarGlobal"
+                        "value": "ResetObjectTimer"
                       },
                       "parameters": [
-                        "Shields",
-                        "-",
-                        "30"
+                        "Ship",
+                        "\"ShieldTimer\""
                       ],
                       "subInstructions": []
                     },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "TextObject::String"
+                        "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "NewObject22",
-                        "=",
-                        "\"Shields: \" + ToString(GlobalVariable(Shields))"
+                        "Ship",
+                        "\"ShieldDamage\""
                       ],
                       "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Shields",
+                            "-",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "NewObject22",
+                            "=",
+                            "\"Shields: \" + ToString(GlobalVariable(Shields))"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 },
                 {
                   "disabled": false,
@@ -5671,7 +6302,21 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarScene"
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "AsteroidLarge",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
                       },
                       "parameters": [
                         "Shields",
@@ -5679,37 +6324,478 @@
                         "0"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarGlobal"
+                        "value": "ResetObjectTimer"
                       },
                       "parameters": [
-                        "Lives",
-                        "-",
-                        "30"
+                        "Ship",
+                        "\"DamageTimer\""
                       ],
                       "subInstructions": []
                     },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "TextObject::String"
+                        "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "NewObject2",
-                        "=",
-                        "\"Lives: \" + ToString(GlobalVariable(Lives))"
+                        "Ship",
+                        "\"Damage\""
                       ],
                       "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Lives",
+                            "-",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "NewObject2",
+                            "=",
+                            "\"Lives: \" + ToString(GlobalVariable(Lives))"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "AsteroidSmall",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Shields",
+                        ">",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "\"ShieldTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "\"ShieldDamage\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Shields",
+                            "-",
+                            "10"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "NewObject22",
+                            "=",
+                            "\"Shields: \" + ToString(GlobalVariable(Shields))"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "AsteroidSmall",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Shields",
+                        "<=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "\"DamageTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "\"Damage\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Lives",
+                            "-",
+                            "10"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "NewObject2",
+                            "=",
+                            "\"Lives: \" + ToString(GlobalVariable(Lives))"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "EnemyBullet",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Shields",
+                        ">",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "\"ShieldTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "\"ShieldDamage\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Shields",
+                            "-",
+                            "15"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "NewObject22",
+                            "=",
+                            "\"Shields: \" + ToString(GlobalVariable(Shields))"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "EnemyBullet",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Shields",
+                        "<=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "\"DamageTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Ship",
+                        "\"Damage\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Lives",
+                            "-",
+                            "15"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "NewObject2",
+                            "=",
+                            "\"Lives: \" + ToString(GlobalVariable(Lives))"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 }
-              ]
+              ],
+              "parameters": []
             },
             {
               "disabled": false,
@@ -5719,23 +6805,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "CollisionNP"
+                    "value": "ObjectTimer"
                   },
                   "parameters": [
                     "Ship",
-                    "AsteroidSmall",
-                    "",
-                    "",
-                    ""
+                    "\"ShieldTimer\"",
+                    "1"
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -5743,267 +6819,27 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Ship",
-                    "\"DamageTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "SetAnimationName"
                   },
                   "parameters": [
                     "Ship",
-                    "\"Damage\""
+                    "\"NormalShip\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Ship",
+                    "\"ShieldTimer\""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Shields",
-                        ">",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "Shields",
-                        "-",
-                        "10\n"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject22",
-                        "=",
-                        "\"Shields: \" + ToString(GlobalVariable(Shields))"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Shields",
-                        "<=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "Lives",
-                        "-",
-                        "10\n"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject2",
-                        "=",
-                        "\"Lives: \" + ToString(GlobalVariable(Lives))"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Ship",
-                    "EnemyBullet",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Ship",
-                    "\"DamageTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Ship",
-                    "\"Damage\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Shields",
-                        ">",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "Shields",
-                        "-",
-                        "15\n"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject22",
-                        "=",
-                        "\"Shields: \" + ToString(GlobalVariable(Shields))"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Shields",
-                        "<=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "Lives",
-                        "-",
-                        "15\n"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "NewObject2",
-                        "=",
-                        "\"Lives: \" + ToString(GlobalVariable(Lives))"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
+              "events": []
             },
             {
               "disabled": false,
@@ -6118,9 +6954,9 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Lives",
+                    "Shields",
                     "+",
-                    "25"
+                    "40"
                   ],
                   "subInstructions": []
                 },
@@ -6132,7 +6968,7 @@
                   "parameters": [
                     "NewObject2",
                     "=",
-                    "\"Lives: \" + ToString(GlobalVariable(Lives))"
+                    "\"Shield: \" + ToString(GlobalVariable(Lives))"
                   ],
                   "subInstructions": []
                 },
@@ -7077,7 +7913,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar10\""
+                    "\"shieldbar10\""
                   ],
                   "subInstructions": []
                 }
@@ -7122,7 +7958,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar9\""
+                    "\"shieldbar9\""
                   ],
                   "subInstructions": []
                 }
@@ -7167,7 +8003,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar8\""
+                    "\"shieldbar8\""
                   ],
                   "subInstructions": []
                 }
@@ -7212,7 +8048,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar7\""
+                    "\"shieldbar7\""
                   ],
                   "subInstructions": []
                 }
@@ -7257,7 +8093,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar6\""
+                    "\"shieldbar6\""
                   ],
                   "subInstructions": []
                 }
@@ -7302,7 +8138,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar5\""
+                    "\"shieldbar5\""
                   ],
                   "subInstructions": []
                 }
@@ -7347,7 +8183,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar4\""
+                    "\"shieldbar4\""
                   ],
                   "subInstructions": []
                 }
@@ -7392,7 +8228,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar3\""
+                    "\"shieldbar3\""
                   ],
                   "subInstructions": []
                 }
@@ -7437,7 +8273,7 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar2\""
+                    "\"shieldbar2\""
                   ],
                   "subInstructions": []
                 }
@@ -7460,6 +8296,18 @@
                     "10"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Shields",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -7470,7 +8318,40 @@
                   },
                   "parameters": [
                     "ShieldBar",
-                    "\"healthbar1\""
+                    "\"shieldbar1\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Shields",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "ShieldBar",
+                    "\"shieldbar0\""
                   ],
                   "subInstructions": []
                 }
@@ -7540,6 +8421,27 @@
                 "Score",
                 "=",
                 "\"Score: \" + GlobalVariableString(Score)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewObject222",
+                "=",
+                "\"enemy1firerate: \" + Enemy1.VariableString(FireRate)"
               ],
               "subInstructions": []
             }
@@ -7654,7 +8556,7 @@
                   },
                   "parameters": [
                     "",
-                    "15",
+                    "1",
                     "\"DifficultyScale\""
                   ],
                   "subInstructions": []
@@ -7680,7 +8582,7 @@
                   "parameters": [
                     "DifficultyValue",
                     "+",
-                    "0.05"
+                    "0.003"
                   ],
                   "subInstructions": []
                 },
@@ -7723,7 +8625,7 @@
                           "parameters": [
                             "Enemy1",
                             "MaxHP",
-                            "*",
+                            "/",
                             "Variable(DifficultyValue)"
                           ],
                           "subInstructions": []
@@ -7749,7 +8651,7 @@
                           "parameters": [
                             "Enemy1",
                             "FireRate",
-                            "*",
+                            "/",
                             "Variable(DifficultyValue)"
                           ],
                           "subInstructions": []
@@ -7762,7 +8664,7 @@
                           "parameters": [
                             "Enemy1",
                             "SpawnRate",
-                            "*",
+                            "/",
                             "Variable(DifficultyValue)"
                           ],
                           "subInstructions": []
@@ -7798,7 +8700,7 @@
                           "parameters": [
                             "Enemy2",
                             "MaxHP",
-                            "*",
+                            "/",
                             "Variable(DifficultyValue)"
                           ],
                           "subInstructions": []
@@ -7824,7 +8726,7 @@
                           "parameters": [
                             "Enemy2",
                             "FireRate",
-                            "*",
+                            "/",
                             "Variable(DifficultyValue)"
                           ],
                           "subInstructions": []
@@ -7837,7 +8739,7 @@
                           "parameters": [
                             "Enemy2",
                             "SpawnRate",
-                            "*",
+                            "/",
                             "Variable(DifficultyValue)"
                           ],
                           "subInstructions": []
@@ -7893,14 +8795,6 @@
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
           "events": []
         }
       ],
